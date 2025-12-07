@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+print("Kinetics Simulator Module Loaded")
 class ReactionKineticsSimulator:
     def __init__(self, C0, k, t_end, dt, reaction_type="first_order", k_rev=None):
         self.C0 = C0
